@@ -2,7 +2,7 @@ import math
 from google import genai
 
 import pathlib
-client = genai.Client(api_key='AIzaSyBDt7xyy-szMGlJ15tYUb3T7MrjV3yymGA')
+client = genai.Client(api_key='SECRETS')
 # Constants for the game
 PLAYER_X = 'X'
 PLAYER_O = 'O'
