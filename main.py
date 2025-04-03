@@ -163,7 +163,7 @@ class TicTacToeAI:
         RETRY_DELAY = 60  # seconds
         current_delay = RETRY_DELAY
 
-        # Optimized prompt for Gemini 2.0 Flash
+        # prompt for Gemini 2.0 Flash
         prompt = f"""Tic-Tac-Toe Move Selection (Board Size: {self.BOARD_SIZE}x{self.BOARD_SIZE})
     You are Player O. Select the best empty cell from the current board state.
 
